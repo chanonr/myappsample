@@ -67,3 +67,7 @@ git add .
 * git commit -m 'changed notes.txt and app.js'
 
 * The command, clear, clears the git bash command window
+
+* If you create a file called .gitignore and fill it with file
+names to be ignored, "a git add ." command will not add the files
+listed in .gitignore - one file name per line.
