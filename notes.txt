@@ -1,0 +1,60 @@
+5:30 PM 9/17/2020
+
+Starting a git project
+
+*  Install git with git bash
+
+*  From the Start menu launch git bash
+
+*  Create an empty folder, call it nf, using the File Explorer - could be on the Desktop
+
+*  Using the File Explorer, navigate to nf so that nf appears highlighted in the hierarchy tree on the left.  Right-click the file/folder list on the right and choose "Git Bash Here".  This action opens git bash in this folder.
+
+* enter: "touch index.html" to create an empty html file
+* enter: "touch app.js" to create an empty js file
+
+* Open Atom, close any former project, then Add as a project file nf.
+
+* As an example, open index.html and add some basic html such as
+
+<html>
+  <head>
+    <title>First git Folder</title>
+  </head>
+  <body>
+    This is a dummy git in desktop gitFolder
+    </body>
+</html>
+
+and save it!
+
+* In the git bash window enter "git init" to create a .git folder in nf
+
+* Configure name and email by entering in the git bash folder
+
+  git config --global user.name 'Robert Chanon'
+  git config --global user.email 'robert.chanon@gmail.com'
+
+* Now add index.html to the repository (contained in nf)
+
+  git add index.html
+
+* In the git bash window use the command "git status", creating output
+similar to below
+
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+        notes.txt
+
+
+Bob@acer01 MINGW64 ~/Desktop/gitFolder (master)
