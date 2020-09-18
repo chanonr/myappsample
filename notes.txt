@@ -80,3 +80,16 @@ git checkout logintobeadded
 
 * To change back to master
 git checkout master
+
+* To put this project in a github repository enter
+git remote
+
+This will open github (may ask for your credentials)  Create a new
+Repository in github
+
+copy the command, "git remote add origin https://github..." to git
+then enter, git remote
+The response "origin" should appear.  Then enter
+git push -u origin master
+
+* Consider creating a README.md file
