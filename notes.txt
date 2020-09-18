@@ -56,5 +56,12 @@ Untracked files:
         app.js
         notes.txt
 
-
 Bob@acer01 MINGW64 ~/Desktop/gitFolder (master)
+
+* You can use wildcards in names to add files, eg.
+git add *.html
+
+* To add all the files
+git add .
+
+* git commit -m 'changed notes.txt and app.js'
