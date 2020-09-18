@@ -104,4 +104,11 @@ git push -u origin master
 * Issue
    git push
 
-to push the changes to the new github Repository
+to push the changes to the new github Repository.
+
+* To clone a repository, the entire directory structure including
+a parent folder, choose the clone Download then clone buttons and
+copy the https://... path
+Then in git, create a new folder, open git bash in it and enter
+
+git clone https://...
