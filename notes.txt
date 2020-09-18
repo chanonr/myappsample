@@ -65,3 +65,5 @@ git add *.html
 git add .
 
 * git commit -m 'changed notes.txt and app.js'
+
+* The command, clear, clears the git bash command window
