@@ -92,4 +92,16 @@ then enter, git remote
 The response "origin" should appear.  Then enter
 git push -u origin master
 
-* Consider creating a README.md file
+
+* Consider creating a README.md file.  Do this on the local machine
+
+* Issue
+  git add .
+
+* Issue
+  git commit -m 'After notes updates'
+
+* Issue
+   git push
+
+to push the changes to the new github Repository
