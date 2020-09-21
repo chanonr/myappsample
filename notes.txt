@@ -1,5 +1,9 @@
 5:30 PM 9/17/2020
 
+<<<<<<<<<<<<<<<<<<<<<<<
+For this sample, the local repository resides on acer01/Desktop/gitFolder
+>>>>>>>>>>>>>>>>>>>>>>>
+
 Starting a git project
 
 *  Install git with git bash
