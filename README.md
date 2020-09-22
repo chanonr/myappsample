@@ -1,4 +1,4 @@
-#HEADERS
+# HEADERS
 
 # This is an <h1> for myApp
 
@@ -6,7 +6,7 @@
 
 ###### This is an <h6>
 
-#EMPHASIS
+# EMPHASIS
 
 *Here is some italicized text*
 _Here is some more italicized text_
@@ -15,14 +15,14 @@ __Here is some bold text__
 
 *You **can** combine them*
 
-#BLOCKQUOTES
+# BLOCKQUOTES
 
 As Mark Twain said:
 
 >History doesn't repeat itself,
 >but it rhymes.
 
-#LISTS
+# LISTS
 
 *Unordered*
 
@@ -39,7 +39,7 @@ As Mark Twain said:
    * Item 3a
    * Item 3b
 
-#BACKSLASH ESCAPES
+# BACKSLASH ESCAPES
 
 Markdown allows you to use backslash escapes to generate
 literal characters, which would otherwise have special meaning
@@ -58,7 +58,7 @@ _  underscore                - minus sign (hyphen)
 
 GitHub.com uses its own version of the Markdown syntax, GFM, that provides an additional set of useful features, many of which make it easier to work with content on GitHub.com.
 
-USERNAME @MENTIONS
+# USERNAME @MENTIONS
 Typing an @ symbol, followed by
 a username, will notify that person
 to come and view the comment.
@@ -67,7 +67,7 @@ because you’re mentioning the
 individual. You can also @mention
 teams within an organization.
 
-ISSUE REFERENCES
+# ISSUE REFERENCES
 Any number that refers to an Issue or
 Pull Request will be automatically
 converted into a link.
@@ -76,7 +76,7 @@ converted into a link.
 github-flavored-markdown#1
 defunkt/github-flavored-markdown#1
 
-EMOJI
+# EMOJI
 GitHub supports emoji!
 :+1: :sparkles: :camel: :tada:
 :rocket: :metal: :octocat:
@@ -85,7 +85,7 @@ To see a list of every image we
 support, check out
 __www.emoji-cheat-sheet.com__
 
-FENCED CODE BLOCKS
+# FENCED CODE BLOCKS
 ```javascript
 function test() {
  console.log("look ma’, no spaces");
@@ -100,7 +100,7 @@ Markdown coverts text with four leading spaces into a code block; with GFM you c
 wrap your code with ``` to create a code block without the leading spaces. Add an
 optional language identifier and your code will get syntax highlighting.
 
-TASK LISTS
+# TASK LISTS
 - [x] this is a complete item
 - [ ] this is an incomplete item
 - [x] @mentions, #refs, [links](),
@@ -108,9 +108,8 @@ TASK LISTS
 supported
 - [x] list syntax required (any
 unordered or ordered list
-supported)
 
-TABLES
+# TABLES
 First Header | Second Header
 ------------ | -------------
 Content cell 1 | Content cell 2
